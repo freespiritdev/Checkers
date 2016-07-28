@@ -1,0 +1,61 @@
+body{
+  background-color: #222;
+  color: white;
+}
+      
+h1{
+  text-align: center;
+}
+
+.checkerBoard {
+  background-color: white;
+  margin: 100px auto;
+  margin-top: 100px;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+}
+
+.black {
+    background: #222;
+}
+
+.cell, .men {
+  width: 40px;
+  height: 40px;
+}
+
+.men {
+    border-radius: 30px;
+    border: 3px solid silver;
+}
+
+.men.black {
+    background: #222;
+}
+
+.men.red {
+    background: red;
+}
+
+.men .theKing {
+    display: all;
+    padding: 11px;
+}
+
+.men.red .theKing {
+    color: white;
+     -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+}
+
+.men.black .theKing {
+    color: red;
+     -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+}
+
+
+
