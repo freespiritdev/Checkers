@@ -2,7 +2,6 @@ $(() => {
 
   setup();
 
-
 })
 
 function setup(boardColor){
@@ -81,7 +80,6 @@ function menDrop(event, ui){
   let newRow = parseInt($(this).attr('row'));
   let newCol = parseInt($(this).attr('col'));
   
-  
   removeIt();
   $(this).append(ui.draggable);
   $('#draggableHelper').remove();
@@ -122,7 +120,6 @@ function jumpmen(men,color,oldRow,oldCol,newRow,newCol){
     
   if ($('.men').length - $('.men.'+color).length === 0){winner(color);}
 }
-
 
 function myHelper( event ) {return '<div id="draggableHelper" class="men"></div>';}
 
