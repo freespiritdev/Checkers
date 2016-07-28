@@ -39,7 +39,7 @@ h1{
 }
 
 .men .theKing {
-    display: all;
+    display: none;
     padding: 11px;
 }
 
